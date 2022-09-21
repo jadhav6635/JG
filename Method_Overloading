@@ -1,0 +1,26 @@
+package method_overloading;
+
+public class Overloading {
+	public void test()
+	{
+		this.test(10);
+		this.test("venky");
+		System.out.println("this is test");
+	}
+	public void test(int a)
+	{
+		System.out.println("this is test-15");
+	}
+	public void test(String b)
+	{
+		System.out.println("this is test-venkatesh");
+	}
+
+	public static void main(String[] args) 
+	{
+		Overloading obj= new Overloading();
+		obj.test();
+
+	}
+
+}
